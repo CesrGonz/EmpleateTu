@@ -21,7 +21,7 @@ export class OffertController{
         }
     }
 
-    static async save(req:Request,res:Response,next:NextFunction){
+    static async update(req:Request,res:Response,next:NextFunction){
         try{
             const OfferData = req.body
             const OfferId = OfferData.id

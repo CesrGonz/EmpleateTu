@@ -2,6 +2,7 @@ import { Router } from "express";
 import {AuthController} from '../controlers/auth.controller'
 import { loginValidation, registerValidation } from "../middlewares/validators.middlewares";
 import { ValidationMiddleware } from "../middlewares/validation.middlewares";
+import { OffertController } from "@/controlers/offerController";
 const router = Router()
 
  
