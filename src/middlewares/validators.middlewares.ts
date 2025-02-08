@@ -10,4 +10,8 @@ export const loginValidation = [
     body('email').isEmail().withMessage('Invalid email'),
     body('password').notEmpty().withMessage('Password required')
 ]
+
+
+
+
 //..

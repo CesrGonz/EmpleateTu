@@ -1,7 +1,10 @@
 import {Response, Request, NextFunction} from 'express'
 
 export const isAdmin = (req:Request, res:Response, next:NextFunction):any => {
-    const {role} = req.body.user
+    const {role} = req.body
+    req.cookies
+    req.params
+    req.body
     try{
         if(role === 'admin'){
             next()
