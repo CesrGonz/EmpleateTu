@@ -1,11 +1,5 @@
-<<<<<<< HEAD
 import {prisma} from "database/database" 
 
-=======
-import { PrismaClient } from "@prisma/client";
-
-const prisma = new PrismaClient()
->>>>>>> dd119fccd3b466aee8bd1f158d15e1804132adf9
 
 export class UserService{
 
