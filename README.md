@@ -7,6 +7,7 @@ npm i express
 npm i -D @types/express
 
 npm i -D @swc/core @swc/cli 
+<<<<<<< HEAD
 ```
 
 
@@ -21,3 +22,8 @@ El form de registro
 
 
 Crea un frontend con vite + tailwind 4.0 + react
+=======
+
+
+```
+>>>>>>> dd119fccd3b466aee8bd1f158d15e1804132adf9

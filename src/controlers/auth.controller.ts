@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import { AuthService } from "../services/auth.services"
+=======
+import { AuthService } from "@/services/auth.services"
+>>>>>>> dd119fccd3b466aee8bd1f158d15e1804132adf9
 import { Response, Request, NextFunction } from "express-serve-static-core"
 
 export class AuthController{
